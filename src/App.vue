@@ -30,6 +30,9 @@ export default {
       this.character = data.character;
     },
   },
+  created() {
+    this.getQuote();
+  },
 };
 </script>
 
